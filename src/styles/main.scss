@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(../images/Star-Wars-day-may-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#eee;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+    header{
+        height:300px;
+        padding:100px;
+
+    }
+.header{
+    background-color: #ccc;
+    background-image: linear-gradient(#ccc ,#000);
+    text-align: center;
+    .data1{
+    margin-top:50px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(19, 35, 19, 0.896);
+    margin-bottom: 20px;
+    #horaCero{
+        font-size: 45px;
+       
+    }
+}
+.data2{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color:#eee;
+    
+}
+}
+.banner{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-top: 400px;
+    color:rgba(250, 250, 5, 0.921);
+    p{
+        font-size: 36px;
+        font-weight: 600;
+        text-align: start;
+        padding:5px;
+        margin-top: 20px;
+    }
+    img{
+        max-width: 250px;
+        width:100%;
+        opacity: .7;
+        border: 2px solid transparent;
+        border-radius: 8px;
+    }
+    &__images{
+        display:flex;
+        justify-content: space-between;
+        
+        @media(max-width:612px){
+            flex-direction: column;
+        }
+    }
+}
+.convite{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-bottom: 10px;
+   
+    button{
+        background-color: transparent;
+        border:4px solid rgba(250, 250, 5, 0.921);
+        border-radius: 8px;
+        padding: 5px;
+        color:#eee;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(250, 250, 5, 0.921);
+            color:#000;
+            border-color: #000;
+        }
+        
+    }
+}
+@media(max-width:602px){
+    .data1{
+        color:#eee;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #horaCero{
+        font-size: 20px;
+    }
+    main{
+        max-width: 98vw;
+        background-repeat:unset;
+    }
+}
